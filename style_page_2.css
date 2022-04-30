@@ -1,0 +1,78 @@
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  header {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/mountain-range.jpg) no-repeat;
+    padding-top: 61.93333333%;
+    background-size: cover;
+    font-family: "Sucrose Bold Two";
+    height: 400px;
+  }
+  
+  .button1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+  }
+  
+  .button1 {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  
+  .button1:hover {
+    background-color: #2e0deb;
+    color: white;
+  }
+
+  header img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45.8%;
+  }
+  
+  header h1 {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    font-size: 5vw;
+    line-height: 0.8;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  header h1 span {
+    display: block;
+    font-size: 8.75vw;
+  }
+  
+  main {
+    background: #fff;
+    position: relative;
+    border: 1px solid #fff;
+    font-family: "IM Fell French Canon Pro";
+    font-size: 1.4rem;
+    padding: 2rem 25%;
+    line-height: 1.6;
+  }
+  
+  @media all and (max-width: 400px) {
+    main {
+      padding: 2rem;
+    }
+  }

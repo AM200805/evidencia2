@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+  html{
+    background: url(https://drscdn.500px.org/photo/1040965829/q%3D80_h%3D600_k%3D1_of%3D1/v2?sig=2b701647cb8f150c7ba12993bf2ae5a2b04fc6617f2add01846952545241b2ca);
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+  }
+  body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    height: 100vh;
+  }
+
+  .border{
+    border: black 3px solid;
+    padding: 10px;
+    background-color: aquamarine;
+  }
+
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+  }
+  
+  .button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #2e0deb;
+    color: white;
+  }
+
+  img{
+    width: 40vmin;
+    aspect-ratio: 0.75;
+    border: 0.5vmin solid;
+    border-radius: 0.33vmin;
+    overflow: hidden;
+  }
+  
+  article {
+    --c: #ca7;
+    --s: 30vmin;
+    display: flex;
+    gap: 1vmin;
+    font-family: 'Comic Neue', Helvetica, Arial, sans-serif;
+    position: relative;
+  }
+  
+  .box {
+    width: 40vmin;
+    aspect-ratio: 0.75;
+    border: 0.5vmin solid;
+    border-radius: 0.33vmin;
+    overflow: hidden;
+    background: linear-gradient(#c9ca, #c9c0 80%);
+    position: relative;
+  }
+  
+  .box div {
+    position: absolute;
+    box-sizing: border-box;
+  }
+  
+  .box:nth-child(2) .safari-bubble {
+    top: 0;
+    width: 100%;
+    border-radius: 80% / 0 0 60% 50%;
+    padding: 2vmin 2vmin 3vmin 2vmin;
+  }
+  
+  .box:nth-child(2) .safari-bubble::before {
+    display: none;
+  }
